@@ -140,7 +140,7 @@ maybe(
 maybe(
     go_repository,
     name = "com_github_pkg_errors",
-    commit = "816c9085562cd7ee03e7f8188a1cfd942858cded",
+    commit = "5dd12d0cfe7f152f80558d591504ce685299311e",
     importpath = "github.com/pkg/errors",
 )
 
