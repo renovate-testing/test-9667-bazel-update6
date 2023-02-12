@@ -170,9 +170,9 @@ load("@bazel_tools//tools/build_defs/repo:utils.bzl", "maybe")
 
 http_archive(
     name = "GBDeviceInfo",
-    url = "https://github.com/lmirosevic/GBDeviceInfo/archive/6.3.0.tar.gz",
-    sha256 = "d7666275dff039407ea467c3083b83e24934101777c8b55b6b1b3b7e9a9e220b",
-    strip_prefix = "GBDeviceInfo-6.3.0/GBDeviceInfo"
+    url = "https://github.com/lmirosevic/GBDeviceInfo/archive/7.2.0.tar.gz",
+    sha256 = "3f2f57aceb84aa38342d2f5acd34025f3fb87d11c5e741cc92c30bc0cdae804d",
+    strip_prefix = "GBDeviceInfo-7.2.0/GBDeviceInfo"
 )
 
 http_archive(
