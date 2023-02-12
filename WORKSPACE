@@ -100,7 +100,7 @@ git_repository(
 
 http_archive(
     name = "io_bazel_rules_go",
-    url = "https://github.com/bazelbuild/rules_go/releases/download/0.7.1/rules_go-0.7.1.tar.gz",
+    url = "https://github.com/bazelbuild/rules_go/releases/download/v0.38.1/rules_go-0.7.1.tar.gz",
     sha256 = "341d5eacef704415386974bc82a1783a8b7ffbff2ab6ba02375e1ca20d9b031c",
 )
 
@@ -126,7 +126,7 @@ maybe(
   http_archive,
   name = "io_bazel_rules_go",
   sha256 = "2b1641428dff9018f9e85c0384f03ec6c10660d935b750e3fa1492a281a53b0f",
-  url = "https://github.com/bazelbuild/rules_go/releases/download/v0.29.0/rules_go-v0.29.0.zip",
+  url = "https://github.com/bazelbuild/rules_go/releases/download/v0.38.1/rules_go-v0.29.0.zip",
 )
 maybe(
     http_archive,
@@ -202,7 +202,7 @@ maybe(
   http_archive,
   name = "io_bazel_rules_go",
   sha256 = "2b1641428dff9018f9e85c0384f03ec6c10660d935b750e3fa1492a281a53b0f",
-  url = "https://github.com/bazelbuild/rules_go/releases/download/v0.29.0/rules_go-v0.29.0.zip",
+  url = "https://github.com/bazelbuild/rules_go/releases/download/v0.38.1/rules_go-v0.29.0.zip",
 )
 
     # Eigen already had a good BUILD file from Tensorflow.
